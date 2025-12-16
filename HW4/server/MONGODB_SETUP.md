@@ -31,7 +31,8 @@
 
 6. **Update .env file:**
    - Replace `<username>` and `<password>` with your database user credentials
-   - Add database name: `mongodb+srv://feaneuser:yourpassword@cluster0.xxxxx.mongodb.net/feane-bistro?retryWrites=true&w=majority`
+   - Add database name: `mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/feane-bistro?retryWrites=true&w=majority`
+   - **NEVER commit your .env file or connection string to GitHub!**
 
 ## Option 2: Local MongoDB
 
